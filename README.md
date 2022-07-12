@@ -1,14 +1,12 @@
 
-Makes a racing bar chart from the latest subreddit posts & comments.
+#### Makes a racing bar chart from the latest subreddit posts & comments.
 
 
-Install your stuff
+- Install python modules
 `pip install racing_bar_chart wordcloud nltk pandas numpy`
-
-Create a reddit app here https://www.reddit.com/prefs/apps
-get the id & secret.
-
-Create a "reddit.ini" file, enter in...
+- Create a reddit app here https://www.reddit.com/prefs/apps
+- Get the id & secret.
+- Create a "reddit.ini" file, enter in...
 
 ```
 C_ID=<app's id>
@@ -16,8 +14,8 @@ C_SECRET=<app's secret>
 C_SUBREDDIT=<subreddit's name>
 ```
 
+- Install jupyterlab and edit the first section to change the dates.
 
-Install jupyterlab and edit the first section to change the dates.
 
 
 Example...
