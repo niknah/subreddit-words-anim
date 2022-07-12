@@ -10,9 +10,11 @@ get the id & secret.
 
 Create a "reddit.ini" file, enter in...
 
+```
 C_ID=<app's id>
 C_SECRET=<app's secret>
 C_SUBREDDIT=<subreddit's name>
+```
 
 
 Install jupyterlab and edit the first section to change the dates.
